@@ -10,6 +10,20 @@
       "StackName": "amplify-ttodorovaws-dev-64410",
       "StackId": "arn:aws:cloudformation:us-east-1:351343461207:stack/amplify-ttodorovaws-dev-64410/555f47a0-e5ab-11ee-9ffd-0e1674e8793b",
       "AmplifyAppId": "d1hcd9dcjqj80o"
+    },
+    "categories": {
+      "function": {
+        "nodejsfunction": {
+          "deploymentBucketName": "amplify-ttodorovaws-dev-64410-deployment",
+          "s3Key": "amplify-builds/nodejsfunction-4674324b636d5442546d-build.zip"
+        }
+      },
+      "storage": {
+        "todos": {}
+      },
+      "api": {
+        "nodejsapi": {}
+      }
     }
   }
 }
