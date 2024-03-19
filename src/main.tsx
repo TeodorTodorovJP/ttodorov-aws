@@ -4,6 +4,10 @@ import { Provider } from "react-redux"
 import App from "./App"
 import { store } from "./app/store"
 import "./index.css"
+import { Amplify } from "aws-amplify"
+import amplifyconfig from "./amplifyconfiguration.json"
+
+Amplify.configure(amplifyconfig)
 
 const container = document.getElementById("root")
 
